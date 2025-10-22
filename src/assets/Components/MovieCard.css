@@ -1,0 +1,95 @@
+
+.fav-btn-active {
+  color: brown;
+}
+
+.fav-btn-notactive {
+  color: white;
+}
+
+.fav-btn-active, .fav-btn-notactive{
+  font-size: 30px;
+  padding-top: 0px;
+}
+
+/* Start Home.css */
+.movie-data{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 3%;
+  padding-left: 3%;
+  padding-top: 20px;
+
+}
+
+.form-search{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.search-input{
+  width: 80%;
+  height: 22px;
+
+}
+
+.search-btn{
+  width: 10%;
+  width: auto;
+  text-overflow: ellipsis;
+  height: 28px;
+  margin-left: 3px;
+
+}
+
+.failed-message{
+  color:brown;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+}
+.loading-message{
+  margin: 0 auto;
+  color: lightslategray;
+  font-size: 20px;
+
+}
+
+/* End Home.css */
+
+.movie-poster {
+  max-width: 30%;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.movie-details{
+  padding: 0;
+  margin: 0;
+}
+
+.movie-details p{
+  margin: 1px;
+  line-height: 20px;
+}
+
+.poster-container {
+  position: relative;
+}
+
+.poster-container img {
+  width: 100%;
+}
+
+.fav-btn-overlay{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: none;
+  cursor: pointer;
+}
+
+.fav-btn-overlay button {
+  background-color: transparent;
+  border: none;
+}
