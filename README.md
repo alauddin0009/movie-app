@@ -25,7 +25,7 @@ A React practice project for learning modern frontend development. This app fetc
 
 ## 🚀 Live Demo
 
-[Add your live demo link here]
+[Movie App](https://movie-app-6ban.onrender.com/)
 
 ## 📁 Project Structure
 src/
